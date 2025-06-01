@@ -19,17 +19,16 @@ print("mathimatisches e: e")
 print()
 print("Gib 'exit' ein zum Beenden.")
 
-# Erlaubte Funktionen und Konstanten:
 erlaubt = {
     "sqrt": math.sqrt,
-    "sin": lambda x: math.sin(math.radians(x)),  # Grad in Radiant umrechnen
+    "sin": lambda x: math.sin(math.radians(x)),
     "cos": lambda x: math.cos(math.radians(x)),
     "tan": lambda x: math.tan(math.radians(x)),
     "pi": math.pi,
     "e": math.e,
     "log": math.log,
     "log10": math.log10,
-    "__builtins__": {}  # verbietet gefährliche Funktionen
+    "__builtins__": {} 
 }
 
 while True:
